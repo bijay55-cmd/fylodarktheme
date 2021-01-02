@@ -231,6 +231,49 @@ footer{
     padding-bottom: 100px;  
 }
 }
+@media screen and (min-width: 801px) and (max-width: 1019px){
+    .footersection img{
+        margin: 20px;
+        }
+        .icontext{
+            margin: 10px 20px;
+        }
+        .icon{
+            display: flex;
+            gap: 20px;
+        }
+        .icon img{
+            margin: 5px;
+            width: 5%;
+            height: 1%;
+        }
+        .services{
+           padding: 20px 30px;
+        }
+        .services ul{
+            list-style:none;
+            margin: 40px 0;
+        }
+        .services li{
+            margin: 10px 0;
+        }
+        .social ul{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            list-style: none;
+            font-size: 20px;
+        }   
+        .signup{
+             position: relative;
+            z-index: 1;
+            top: 150px;
+        }
+        footer{
+          padding-top: 250px;
+            padding-bottom: 100px;  
+        }
+}
 @media screen and (min-width: 1020px){
     header img{
         width: 100%;
